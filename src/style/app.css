@@ -1,0 +1,76 @@
+body{
+    position: relative;
+}
+.first-block{
+    position: absolute;
+    top: 17px;
+    left: 500px;
+}
+.first-block-todo-input{
+    width: 600px;
+    height: 50px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.first-block-todo-btn{
+    position: absolute;
+    top: 80px;
+    left: 230px;
+}
+.first-block-todo-save-btn{
+    padding: 14px 46px;
+    background: #232222;
+    border-radius: 224px;
+}
+.first-block-todo-save-btn p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+.second-block{
+    position: absolute;
+    top: 160px;
+    left: 400px;
+    margin-top: 20px;
+    
+    
+}
+.second-block-todo{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 800px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.second-block-todo-list{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.second-block-todo-list-delete-btn{
+    
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+.r{
+   margin-right: 15px;
+   margin-top: 15px;
+}
