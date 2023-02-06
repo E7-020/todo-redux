@@ -1,6 +1,6 @@
 import "./style/app.css";
 import { useSelector, useDispatch } from "react-redux";
-import { addTodo, removeTodo } from "./components/action";
+import { addTodo, removeTodo } from "./redux/actions";
 import { useState } from "react";
 import Img from "./assets/Union.png";
 
